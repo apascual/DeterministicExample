@@ -1,0 +1,11 @@
+name: DeterministicExample
+targets:
+  DeterministicExample:
+    type: application
+    platform: iOS
+    deploymentTarget: "13.0"
+    sources: [DeterministicExample]
+    settings:
+      base:
+        INFOPLIST_FILE: DeterministicExample/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.abelpascual.DeterministicExample
